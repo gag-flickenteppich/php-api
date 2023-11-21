@@ -6,13 +6,12 @@ use quickRdf\DataFactory as DF;
 use termTemplates\DatasetExtractors;
 use termTemplates\QuadTemplate as QT;
 use alsvanzelf\jsonapi\objects\ResourceObject;
-use PSpell\Dictionary;
 
 class Person
 {
 	public String $id;
 	public String $name;
-	public String $wikipediaUrl;
+	public String|null $wikipediaUrl;
 	public array $references;
 
 
