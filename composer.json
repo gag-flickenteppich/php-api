@@ -1,0 +1,9 @@
+{
+    "require": {
+        "sweetrdf/quick-rdf": "^1.0",
+        "sweetrdf/quick-rdf-io": "^1.0",
+        "sweetrdf/sparql-client": "^0.6.2",
+        "sweetrdf/term-templates": "^1.0",
+        "alsvanzelf/jsonapi": "^2.4"
+    }
+}
